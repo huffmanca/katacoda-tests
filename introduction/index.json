@@ -31,11 +31,10 @@
     }
   },
   "environment": {
-    "uilayout": "terminal-iframe",
-    "uisettings": "java"
+    "uilayout": "terminal-iframe"
   },
   "backend": {
-    "imageid": "docker",
+    "imageid": "windup",
     "port": 8080
   }
 }
