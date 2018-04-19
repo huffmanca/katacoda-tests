@@ -34,7 +34,7 @@
     "uilayout": "terminal-iframe"
   },
   "backend": {
-    "imageid": "jboss/windup",
+    "imageid": "windup-cli-openshift",
     "port": 8080
   }
 }
