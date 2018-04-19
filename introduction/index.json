@@ -17,8 +17,7 @@
       }
     ],
     "intro": {
-      "courseData": "run-init.sh",
-      "code": "set-env.sh",
+      "courseData": "set-env.sh",
       "text": "intro.md"
     },
     "assets": {
@@ -32,10 +31,11 @@
     }
   },
   "environment": {
-    "uilayout": "terminal",
+    "uilayout": "terminal-iframe",
     "uisettings": "java"
   },
   "backend": {
-    "imageid": "docker"
+    "imageid": "docker",
+    "port": 8080
   }
 }
