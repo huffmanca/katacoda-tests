@@ -34,7 +34,7 @@
     "uilayout": "terminal-iframe"
   },
   "backend": {
-    "imageid": "windup",
+    "imageid": "jboss/windup",
     "port": 8080
   }
 }
