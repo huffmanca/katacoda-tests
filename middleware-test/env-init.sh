@@ -5,3 +5,4 @@ ssh root@host01 'for i in {1..200}; do oc get project/openshift --as system:admi
 #ssh root@host01 "yum install -y postgresql socat"
 #ssh root@host01 "docker pull centos/postgresql-95-centos7:latest"
 ssh root@host01 "docker pull windup3/windup-web_nightly"
+ssh root@host01 "docker run -p 8180:8180 windup3/windup-web_nightly"
