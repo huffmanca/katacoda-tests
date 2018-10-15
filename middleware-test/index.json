@@ -6,7 +6,7 @@
     "difficulty": "beginner",
     "time": "20-30 minutes",
     "backend": {
-        "imageid": "openshift",
+        "imageid": "centos-7",
         "port": 8443
     },
     "environment": {
